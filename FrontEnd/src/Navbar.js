@@ -16,7 +16,7 @@ export const Navbar = () => {
                                     <img src="/images/home.png" className="HomeLogoImage" alt="" />
                                 </a>
                             </div>
-                            <a href="/home">
+                            <a href="/Homepage">
                                 <button className="homebtn" type="submit">
                                     Home
                                 </button>

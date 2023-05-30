@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Pantnagar_logo from"./Pantnagar_logo.jpg"
+import Pantnagar_logo from "./Pantnagar_logo.jpg"
 
 
 const Header = () => {
@@ -26,11 +26,12 @@ const Header = () => {
                 <div className="department">..Information Technology..</div>
             </div>
             <nav>
-                <div className="logo" style={{ color: 'white'}}>Project Final</div>
+                <div className="logo" style={{ color: 'white' }}>Project Final</div>
                 <div className="loginmenu">
-                    <a href="/home"><Link to="/Homepage" style={{ color: 'white' }}> Home </Link></a>
-                    <a href="./UserProfile"><Link to="/UserProfile" style={{ color: 'white' }}> User Profile</Link></a>
-                    <a href="/auth/logout" style={{ color: 'white' }}>Logout</a>
+                    {/* <a href="/home"><Link to="/Homepage" style={{ color: 'white' }}> Home </Link></a> */}
+                    {/* <a href="./UserProfile"><Link to="/UserProfile" style={{ color: 'white' }}> User Profile</Link></a> */}
+                    <a href="/" style={{ color: 'white' }}>Logout</a>
+                    {/* <a href="/auth/logout" style={{ color: 'white' }}>Logout</a> */}
                 </div>
             </nav>
         </>

@@ -6,7 +6,10 @@ import kala from "./Footer";
 import noticedata from "./dummyDataforNotice";
 import placementdata from "./dummyDataforPlacement"
 import placementresultdata from "./dummyDataforPlacementResult";
+import externalcirculardata from "./dummyDataforexternalcircualr";
+import internalcirculardata from "./dummyDataforinternalcircular";
 import { LoginTopBar } from "./LoginTopBar";
+
 const Login = () => {
   const [user, setuser] = useState({
     email: "",

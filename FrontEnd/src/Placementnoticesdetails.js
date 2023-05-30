@@ -7,6 +7,7 @@ import { useLocation } from 'react-router-dom'
 export const Placementnoticesdetails = () => {
     const location = useLocation();
     const { index } = location.state;
+
     const PlacementNoticeArr = JSON.parse(localStorage.getItem("placement-notice-data"))
     const PlacementNoticeObj = PlacementNoticeArr[index];
     return (

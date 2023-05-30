@@ -5,9 +5,12 @@ import Login from './Login';
 import AddNotices from "./Addnotices";
 import Circularhomeinterface from "./Circularhomeinterface";
 import StudentExternalCirculardetails from "./StudentExternalCirculardetails";
-import Courseallotement2yr from "./Courseallotement2yr";
-import Courseallotement3yr from './Courseallotement3yr';
-import Courseallotement4yr from "./Courseallotement4yr";
+import Courseallotement2yrsem1 from "./Courseallotement2yrsem1";
+import Courseallotement2yrsem2 from "./Courseallotement2yrsem2";
+import Courseallotement3yrsem1 from './Courseallotement3yrsem1';
+import Courseallotement3yrsem2 from './Courseallotement3yrsem2';
+import Courseallotement4yrsem1 from "./Courseallotement4yrsem1";
+import Courseallotement4yrsem2 from "./Courseallotement4yrsem2";
 import Deleteexternalcircular from './Deleteexternalcircular';
 import Deleteinternalcirculars from './Deleteinternalcirculars';
 import Courseallotmentmain from './Courseallotmentmain';
@@ -96,9 +99,12 @@ function App() {
         <Route exact path="/Addresultsofplacementnotices" element={<Addresultsofplacementnotices />} />
         <Route exact path="/Addplacementrelatednotices" element={<Addplacementrelatednotices />} />
         <Route exact path="/Circularhomeinterface" element={<Circularhomeinterface />} />
-        <Route exact path="/Courseallotement2yr" element={<Courseallotement2yr />} />
-        <Route exact path="/Courseallotement3yr" element={<Courseallotement3yr />} />
-        <Route exact path="/Courseallotement4yr" element={<Courseallotement4yr />} />
+        <Route exact path="/Courseallotement2yrsem1" element={<Courseallotement2yrsem1 />} />
+        <Route exact path="/Courseallotement2yrsem2" element={<Courseallotement2yrsem2 />} />
+        <Route exact path="/Courseallotement3yrsem1" element={<Courseallotement3yrsem1 />} />
+        <Route exact path="/Courseallotement3yrsem2" element={<Courseallotement3yrsem2 />} />
+        <Route exact path="/Courseallotement4yrsem1" element={<Courseallotement4yrsem1 />} />
+        <Route exact path="/Courseallotement4yrsem2" element={<Courseallotement4yrsem2 />} />
         <Route exact path="/Courseallotmentmain" element={<Courseallotmentmain />} />
         <Route exact path="/Deleteexternalcircular" element={<Deleteexternalcircular />} />
         <Route exact path="/Deleteinternalcirculars" element={<Deleteinternalcirculars />} />

@@ -23,7 +23,8 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="colgname">College of Technology</div>
-                <div className="department">..Information Technology..</div>
+                {/* <div className="department">..Information Technology..</div> */}
+                <div className="department">   </div>
             </div>
             <nav>
                 <div className="logo" style={{ color: 'white' }}>Project Final</div>

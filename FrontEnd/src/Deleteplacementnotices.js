@@ -10,17 +10,11 @@ export const Deleteplacementnotices = () => {
   const size = dummyArr.length
   let placementnoticeDataArr = JSON.parse(localStorage.getItem("placement-notice-data"));
   function deleteNotice(index) {
-    if (size <= 0) {
-      alert("Nothing to Delete ! Please get back to the Notices Home Page")
-    }
-    else {
-      alert(" Deleting Notice ?")
-      dummyArr.pop();
-      placementnoticeDataArr.splice(index, 1);
-      localStorage.setItem("dummyplacementnoticeArr", JSON.stringify(dummyArr));
-      localStorage.setItem("placement-notice-data", JSON.stringify(placementnoticeDataArr));
-    }
-    size--;
+    alert(" Deleting Notice ?")
+    dummyArr.pop();
+    placementnoticeDataArr.splice(index, 1);
+    localStorage.setItem("dummyplacementnoticeArr", JSON.stringify(dummyArr));
+    localStorage.setItem("placement-notice-data", JSON.stringify(placementnoticeDataArr));
   }
 
   return (
@@ -28,7 +22,6 @@ export const Deleteplacementnotices = () => {
 
       <Header></Header>
       <Navbar></Navbar>
-
       <div className="baseforeverypage">
         <div className="updation">
           <h3>Delete Placement Notices</h3>
@@ -53,7 +46,6 @@ export const Deleteplacementnotices = () => {
           </div>
         </div>
       </div>
-
       <Footer></Footer>
 
     </>

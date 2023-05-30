@@ -27,16 +27,17 @@ export const Addnotices = () => {
       [name]: value,
     });
   };
-
+//console.log(values)
   let noticeArr = JSON.parse(localStorage.getItem("notice-data"));
   noticeArr.push(values);
 
   const handleNoticeSubmission = (e) => {
-    let dummynoticeArr = JSON.parse(localStorage.getItem("dummynoticeArr"));
-    let num = dummynoticeArr[dummynoticeArr.length - 1];
-    dummynoticeArr.push(++num);
-    localStorage.setItem("dummynoticeArr", JSON.stringify(dummynoticeArr));
-    localStorage.setItem("notice-data", JSON.stringify(noticeArr));
+    console.log(values)
+  //  let dummynoticeArr = JSON.parse(localStorage.getItem("dummynoticeArr"));
+ //   let num = dummynoticeArr[dummynoticeArr.length - 1];
+  //  dummynoticeArr.push(++num);
+  //  localStorage.setItem("dummynoticeArr", JSON.stringify(dummynoticeArr));
+  //  localStorage.setItem("notice-data", JSON.stringify(noticeArr));
   };
 
   // const senddata = async () => {

@@ -31,16 +31,16 @@ export const Noticeshomepage = () => {
   if(!localStorage.getItem("isPlacementResultNoticeArraySaved")){
     dummyPlacementResultNoticeArr = [];
     localStorage.setItem("dummyplacementresultArr",JSON.stringify(dummyPlacementResultNoticeArr));
-    localStorage.setItem("isSavedPlacementResultNoticeArraySaved",true);
+    localStorage.setItem("isPlacementResultNoticeArraySaved",true);
   }else{
     dummyPlacementResultNoticeArr = JSON.parse(localStorage.getItem("dummyplacementresultArr"));
   }
-  useEffect(() => {
-    fetch('http://localhost:3001/project_final')
-      .then(res => res.json())
-      .then(data => setData(data))
-      .catch(err => console.log(err));
-  }, [])
+ // useEffect(() => {
+  //  fetch('http://localhost:3001/project_final')
+   ///   .then(res => res.json())
+    //  .then(data => setData(data))
+   //   .catch(err => console.log(err));
+  //}, [])
   return (
     <>
 

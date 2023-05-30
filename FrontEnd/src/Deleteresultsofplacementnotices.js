@@ -9,7 +9,7 @@ export const Deleteresultsofplacementnotices = () => {
   let dummyArr = JSON.parse(localStorage.getItem("dummyplacementresultArr"));
   let placementresultDataArr = JSON.parse(localStorage.getItem("placement-result-data"));
   function deleteNotice(index) {
-      alert(" Deleting Notice ?")
+    alert(" Deleting Notice ?")
     dummyArr.pop();
     placementresultDataArr.splice(index, 1);
     localStorage.setItem("dummyplacementresultArr", JSON.stringify(dummyArr));

@@ -19,27 +19,27 @@ export const Courseallotmentmain = () => {
             <input type="text" readOnly="" defaultValue="Second Year " />
             <br />
             <div className="courseallotment-dropdown">
-              <a href="/Courseallotement2yr"><button>Semester 1</button></a>
+              <a href="/Courseallotement2yrsem1"><button>Semester 1</button></a>
               <br />
-              <a href='/Courseallotement2yr'><button>Semester 2</button></a>
+              <a href='/Courseallotement2yrsem2'><button>Semester 2</button></a>
             </div>
           </div>
           <div className="thirdyr">
             <input type="text" readOnly="" defaultValue="Third Year " />
             <br />
             <div className="courseallotment-dropdown">
-            <a href="/CourseAllotment3yr"><button>Semester 1</button></a>
+              <a href="/Courseallotement3yrsem1"><button>Semester 1</button></a>
               <br />
-              <a href='/Courseallotement3yr'><button>Semester 2</button></a>
+              <a href='/Courseallotement3yrsem2'><button>Semester 2</button></a>
             </div>
           </div>
           <div className="finalyr">
             <input type="text" readOnly="" defaultValue="Final Year " />
             <br />
             <div className="courseallotment-dropdown">
-            <a href="/CourseAllotment4yr"><button>Semester 1</button></a>
+              <a href="/Courseallotement4yrsem1"><button>Semester 1</button></a>
               <br />
-              <a href='/Courseallotement4yr'><button>Semester 2</button></a>
+              <a href='/Courseallotement4yrsem2'><button>Semester 2</button></a>
             </div>
           </div>
         </div>

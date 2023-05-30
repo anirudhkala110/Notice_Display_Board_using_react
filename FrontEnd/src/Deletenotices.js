@@ -6,20 +6,13 @@ import Footer from "./Footer";
 
 export const Deletenotices = () => {
   let dummyArr = JSON.parse(localStorage.getItem("dummynoticeArr"));
-  const size = dummyArr.length
   let noticeDataArr = JSON.parse(localStorage.getItem("notice-data"));
   function deleteNotice(index) {
-    if (size <= 0) {
-      alert("Nothing to Delete ! Please get back to the Notices Home Page")
-    }
-    else {
-      alert(" Deleting Notice ?")
-      dummyArr.pop();
-      noticeDataArr.splice(index, 1);
-      localStorage.setItem("dummynoticeArr", JSON.stringify(dummyArr));
-      localStorage.setItem("notice-data", JSON.stringify(noticeDataArr));
-    }
-    size--;
+    alert(" Deleting Notice ?")
+    dummyArr.pop();
+    noticeDataArr.splice(index, 1);
+    localStorage.setItem("dummynoticeArr", JSON.stringify(dummyArr));
+    localStorage.setItem("notice-data", JSON.stringify(noticeDataArr));
   }
   return (
     <>

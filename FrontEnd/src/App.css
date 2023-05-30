@@ -21,6 +21,127 @@ body {
     /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
 }
 
+/* Course Allotement */
+.courseallotment {
+    display: flex;
+    width: 89vw;
+}
+
+.course-allotment {
+    /* max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif; */
+    width: 25vw;
+    display: block;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group form input[type="text"] {
+    width: 100%;
+    /* margin: 5px; */
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.btne {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btne:hover {
+    background-color: #0056b3;
+}
+
+.teacher-allotment {
+    margin-bottom: 20px;
+}
+
+.teacher-allotment h3 {
+    margin-bottom: 10px;
+}
+
+.course-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-list li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.allotment-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.allotment-table th,
+.allotment-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: black;
+}
+
+.allotment-table th {
+    color: black;
+    background-color: #d3f0c2;
+}
+
+.courseallotmentbase {
+    display: flex;
+}
+
+.AllotementDetails {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AllotementDetails h2 {
+    text-align: center;
+}
+
+/* End of Course Allotement */
+
 @media only screen and (max-height : 875px) {
 
     .logintopbarinfo {
@@ -626,7 +747,7 @@ input[type=submit]:hover {
     background-color: #f7f5f5;
     backdrop-filter: blur(50px);
     height: 75vh;
-    min-height: 200px;
+    min-height: 650px;
 }
 
 
@@ -1485,7 +1606,7 @@ hr {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -2210,7 +2331,7 @@ hr {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -2933,7 +3054,7 @@ hr {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -3236,6 +3357,10 @@ hr {
         margin-top: 38%;
         max-height: 50vh;
         padding-bottom: 5px;
+    }
+
+    .course-allotment h1 {
+        font-size: 2.5vw;
     }
 }
 
@@ -3678,7 +3803,7 @@ hr {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -4410,7 +4535,7 @@ hr {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -5157,7 +5282,7 @@ hr {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -5461,7 +5586,52 @@ hr {
         max-height: 50vh;
         padding-bottom: 5px;
     }
+    .btne {
+        padding: 1.2vw 1.2vw;
+        width: 100%;
+        font-size: 1.8vw;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
 
+    .form-group form input[type="text"] {
+        width: 100%;
+        height: 2vh;
+        /* margin: 5px; */
+        border-radius: 5px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .form-group form input[type="number"] {
+        width: 100%;
+        height: 3vh;
+        /* margin: 5px; */
+        border-radius: 5px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        font-size: 1.8vw;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+    .course-allotment h1 {
+        font-size: 1.5vw;
+    }
+    .form-group label {
+        display: block;
+        font-size: 1.8vw;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .course-allotment h1 {
+        font-size: 1.5vw;
+    }
 }
 
 /*<-------------------------------media changes  541px------------------------>*/
@@ -5904,7 +6074,7 @@ hr {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -6653,7 +6823,7 @@ hr {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -7390,7 +7560,7 @@ hr {
         -webkit-backdrop-filter: blur(50px);
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -8132,7 +8302,7 @@ hr {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -8882,7 +9052,7 @@ hr {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 75vh;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -10592,7 +10762,7 @@ form input[type="date"] {
         background-color: #f7f5f5;
         backdrop-filter: blur(50px);
         height: 480px;
-        min-height: 200px;
+        min-height: 650px;
     }
 
     .timetablemainbase {
@@ -10637,7 +10807,7 @@ form input[type="date"] {
         height: 295px;
         padding: 15px 50px;
         /* overflow-y: auto; */
-        display:block;
+        display: block;
         align-items: flex-start;
         background: #73f39945;
         border-top-right-radius: 20px;
@@ -11426,8 +11596,9 @@ table {
     margin-right: auto;
     width: 96%;
     border: 2px solid silver;
-    height: 60vh;
-    background-color: #282A35;
+    height: 58vh;
+    min-height: 600px;
+    background-color: #282a3512;
     padding: 2%;
 }
 
@@ -11436,7 +11607,7 @@ table th:nth-child(1) {
     height: 5vh;
     width: 1vw;
     padding: 1%;
-    color: white;
+    color: black;
     /* background-color: red; */
     font-size: 1.2vw;
     border-top-left-radius: 8px;
